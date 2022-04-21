@@ -1,3 +1,20 @@
-fish lidar project
+Changepoint detection algorithms for fish lidar data analysis
 
-[[file:TestRegion.csv]] from Nat Sweeney, 19 Apr 2022.
+** 20 Apr 2022
+
+[[file:TestRegion.R]] makes 
+
+[[file:TestRegion-segmentation.png]]
+
+Figure above shows data sequence for 8 individual columns of complete
+image/matrix, along with segmentation (predicted mean values and
+states). 
+
+Figure below shows image/matrix for 200 LIDAR shots. Grey vertical
+lines indicate columns which were analyzed using graph-constrained
+optimal changepoint detection algorithm, and circles show predicted
+states.
+
+[[file:TestRegion-predictions.png]]
+
+
